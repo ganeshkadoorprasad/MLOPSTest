@@ -1,9 +1,9 @@
 from src.algos import add, sub
 
-def add_test():
+def test_add():
     assert add(2,3) == 5
 
-def sub_test():
+def test_sub():
     assert sub(3,2) == 1
 
 
